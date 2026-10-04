@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
+    base: '/PrepAI/',
     tailwindcss(),
   ],
 })
